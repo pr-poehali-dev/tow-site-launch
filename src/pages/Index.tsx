@@ -19,7 +19,7 @@ const Index = () => {
     {
       icon: "Zap",
       title: "Срочная подача",
-      description: "Приедем за 15-20 минут в любую точку города"
+      description: "Приедем за 15-20 минут в пределах Белгорода"
     },
     {
       icon: "Shield",
@@ -29,12 +29,12 @@ const Index = () => {
   ];
 
   const zones = [
-    { name: "Центральный район", time: "15 мин" },
-    { name: "Северный район", time: "20 мин" },
-    { name: "Южный район", time: "25 мин" },
-    { name: "Восточный район", time: "20 мин" },
-    { name: "Западный район", time: "25 мин" },
-    { name: "МКАД и трассы", time: "30 мин" }
+    { name: "Белгород", time: "15 мин" },
+    { name: "Старый Оскол", time: "45 мин" },
+    { name: "Губкин", time: "50 мин" },
+    { name: "Алексеевка", time: "60 мин" },
+    { name: "Валуйки", time: "70 мин" },
+    { name: "Шебекино", time: "40 мин" }
   ];
 
   return (
@@ -44,9 +44,9 @@ const Index = () => {
           <Icon name="Truck" size={32} className="text-primary" />
           <span className="text-2xl font-bold">ЭвакуаторПро</span>
         </div>
-        <a href="tel:+79991234567" className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors">
+        <a href="tel:+79511447784" className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors">
           <Icon name="Phone" size={20} />
-          <span className="font-semibold">+7 (999) 123-45-67</span>
+          <span className="font-semibold">+7 (951) 144-77-84</span>
         </a>
       </header>
 
@@ -55,7 +55,7 @@ const Index = () => {
           Эвакуатор 24/7
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Быстрая подача по всему городу и трассам. Профессиональная эвакуация любых автомобилей
+          Быстрая подача по Белгородской области. Профессиональная эвакуация любых автомобилей
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-white group">
@@ -131,7 +131,7 @@ const Index = () => {
         <div className="mt-12 text-center">
           <div className="inline-flex items-center gap-2 bg-primary/10 px-6 py-3 rounded-full">
             <Icon name="MapPin" size={20} className="text-primary" />
-            <span className="text-primary font-semibold">Выезжаем за МКАД до 100 км</span>
+            <span className="text-primary font-semibold">Обслуживаем всю Белгородскую область</span>
           </div>
         </div>
       </section>
@@ -178,7 +178,7 @@ const Index = () => {
               </div>
               <div>
                 <h4 className="font-bold mb-2">Телефон</h4>
-                <a href="tel:+79991234567" className="text-primary hover:underline text-lg">+7 (999) 123-45-67</a>
+                <a href="tel:+79511447784" className="text-primary hover:underline text-lg">+7 (951) 144-77-84</a>
               </div>
             </div>
             <div className="flex items-start gap-4 p-6 bg-card rounded-xl border border-border hover:border-secondary transition-all">
@@ -187,7 +187,7 @@ const Index = () => {
               </div>
               <div>
                 <h4 className="font-bold mb-2">WhatsApp / Telegram</h4>
-                <a href="https://wa.me/79991234567" className="text-secondary hover:underline text-lg">+7 (999) 123-45-67</a>
+                <a href="https://wa.me/79511447784" className="text-secondary hover:underline text-lg">+7 (951) 144-77-84</a>
               </div>
             </div>
             <div className="flex items-start gap-4 p-6 bg-card rounded-xl border border-border hover:border-primary transition-all">
