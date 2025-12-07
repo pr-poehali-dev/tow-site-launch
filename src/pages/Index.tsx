@@ -190,15 +190,7 @@ const Index = () => {
                 <a href="https://wa.me/79511447784" className="text-secondary hover:underline text-lg">+7 (951) 144-77-84</a>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-6 bg-card rounded-xl border border-border hover:border-primary transition-all">
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                <Icon name="Mail" size={24} className="text-primary" />
-              </div>
-              <div>
-                <h4 className="font-bold mb-2">Email</h4>
-                <a href="mailto:info@evacuator.ru" className="text-primary hover:underline text-lg">info@evacuator.ru</a>
-              </div>
-            </div>
+
             <div className="flex items-start gap-4 p-6 bg-card rounded-xl border border-border hover:border-secondary transition-all">
               <div className="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0">
                 <Icon name="Clock" size={24} className="text-secondary" />
